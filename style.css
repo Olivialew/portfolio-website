@@ -1,0 +1,269 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+
+.banner-img {
+    background-image: url("/images/banner.png");
+    height: 45%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-family: 'Jost';
+    z-index: 9999;
+}
+
+.menu {
+    font-size: 1.8em;
+    font-weight: 500;
+}
+
+.menu, footer {
+    background-color: #FAC595;
+    background-image: linear-gradient(to right, #FAC595, #B2835F);
+}
+
+.menu ul, .socials ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li a {
+    display: block;
+    color: white;
+    padding: 2vh 3vw;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    background-color: #000000;
+}
+
+.menu ul li a:hover:not(.active) {
+    background-color: #B2835F;
+}
+
+.socials ul li a {
+    display: block;
+    color: white;
+    padding: 1vh 1vw;
+    text-decoration: none;
+}
+
+.socials img {
+    border-radius: 10px;
+}
+
+.techstacks>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.techstacks ul li ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2vh 2vw;
+}
+
+.techstacks ul li ul li {
+    display: block;
+    color: black;
+    padding: 2vh 0vw;
+    text-decoration: none;
+}
+
+.techstacks img {
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.projects>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Teachers';
+    font-size: 1.8em;
+    text-align: center;
+    color: black;
+}
+
+.projects ul li ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1vh 2vw;
+    display: flex;
+    justify-content: center;
+}
+
+.projects ul li ul li {
+    display: block;
+    padding: 0vh 2vw;
+    text-decoration: none;
+}
+
+.projects img {
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+
+
+/* ul li a.active {
+  background-color: #B2835F;
+} */
+
+footer {
+    display: flex;
+    justify-content: left;
+}
+
+.footer-container {
+    font-family: 'Sintony';
+    color: white;
+    margin: 5vh auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    gap: 25vw;
+}
+
+.column {
+    flex: 1;
+    min-width: 250px; /* Forces stack on mobile screens */
+    margin: 10px;
+}
+
+.footer-container .socials ul {
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+    display: flex;
+    justify-content: left;
+}
+
+.footer-container ul li a {
+    display: block;
+    color: white;
+    padding: 0 1vw 0 0;
+    text-decoration: none;
+}
+
+.footer-container ul img {
+    border-radius: 15px;
+}
+
+footer h3 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+button {
+    display: flex;
+    align-content: center;
+    padding: 1vh 2vw;
+    border-radius: 15px;
+    font-size: 1.4em;
+    color: white;
+    font-weight: 500;
+    border-color: white;
+    background-color: transparent;
+    border-style: solid;
+}
+
+button:hover {
+    background-color: #B2835F;
+}
+
+#footer-sitemap ul {
+    list-style-type: none;
+    margin: 1vh 0;
+    padding: 0;
+    font-size: 1.4em;
+}
+
+#footer-sitemap ul li a {
+    padding: 0.1vh 0;
+}
+
+#footer-sitemap ul li a:hover {
+    text-decoration: underline;
+    color: #B2835F;
+}
+
+.content {
+    margin-top: 10vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 10vh;
+}
+
+#home {
+    margin-top: 12vh;
+    margin-bottom: 25vh;
+}
+
+#introduction, #projects {
+    margin-top: 0;
+    margin-bottom: 15vh;
+}
+
+.quote {
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 1vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-bottom: 1vh;
+    font-family: 'Junge';
+}
+
+.section-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 5vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-bottom: 5vh;
+    color: #89664B;
+    font-family: 'Sintony';
+    text-align: center;
+}
+
+#contacts #paragraph {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+#contacts {
+    margin-bottom: 15vh;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

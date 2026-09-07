@@ -1,14 +1,165 @@
 <!DOCTYPE html>
 <html lang="en-MY">
-    <header>
-        <div class="banner-img">
-        </div>
-        <nav></nav>
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+        <title>Olivia's Portfolio Website</title>
         <link type="text/css" rel="stylesheet" href="style.css">
-    </header>
+        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+        <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Junge&family=Sintony:wght@400;700&display=swap&family=Teachers" rel="stylesheet">
+        <style>
+        </style>
+    </head>
     <body>
-        <p title="introduction">
-            Welcome! I am a software engineer who is eager to contribute to developing a website from requirement gathering, prototyping and designing, and building interactive websites.
-        </p>
+        <div class="banner-img">
+            <!-- <div class="banner-text">
+                <h1>Olivia Lew</h1>
+                <div style="border: 3px; border-radius: 30px; margin: 10px;">
+                    <h2>Software Engineer</h2>
+                </div>
+            </div> -->
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div id="home">
+                <p class="quote">
+                    Welcome! I am a software engineer who is eager to contribute to developing a website from requirement gathering, prototyping and designing, and building interactive websites.
+                </p>
+            </div>
+            <div id="introduction">
+                <h1 class="section-title">Introduction</h1>
+                <p class="quote">I am experienced in website development using languages like HTML, CSS, JavaScript, Java, C++, C#, Python and frameworks such as Spring, Hibernate and MySQL.</p>
+                <div class="techstacks" id="techstacks">
+                    <ul>
+                        <li>
+                            <ul>
+                                <li><img src="images/htmlLogo.jpg" alt="HTML Logo" width="100vw" height="100vh"></li>
+                                <li><img src="images/cssLogo.png" alt="CSS Logo" width="100vw" height="100vh"></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><img src="images/jsLogo.jpg" alt="JS Logo" width="100vw" height="100vh"></li>
+                                <li><img src="images/javaLogo.png" alt="Java Logo" width="100vw" height="100vh"></li>
+                                <li><img src="images/cppLogo.png" alt="C++ Logo" width="100vw" height="100vh"></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><img src="images/csLogo.png" alt="C# Logo" width="100vw" height="100vh"></li>
+                                <li><img src="images/pythonLogo.png" alt="Python Logo" width="100vw" height="100vh"></li>
+                                <li><img src="images/springLogo.jpg" alt="Spring Logo" width="100vw" height="100vh"></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><img src="images/hibernateLogo.png" alt="Hibernate Logo" width="100vw" height="100vh"></li>
+                                <li><img src="images/mySqlLogo.png" alt="MySQL Logo" width="100vw" height="100vh"></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="projects">
+                <h1 class="section-title">Project Showcase</h1>
+                <div class="projects" id="projects">
+                    <ul>
+                        <li>
+                            <ul>
+                                <li>
+                                    <img src="images/uniFinderProgrammePage.jpeg" width="400vw" height="250vh">
+                                    <p>EduPath - University Finder</p>
+                                </li>
+                                <li>
+                                    <img src="images/uniFinderProgrammePage.jpeg" width="400vw" height="250vh">
+                                    <p>AI Recipe Recommender</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li>
+                                    <img src="images/uniFinderProgrammePage.jpeg" width="400vw" height="250vh">
+                                    <p>Cinema Booking Website </p>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="contacts">
+                <h1 class="section-title">Contacts</h1>
+                <p class="quote" id="paragraph">That is the end of my portfolio website. Hope you enjoy the ride! Lets stay connected by following each other on other platforms.<br>Enjoy your day!</p>
+                <p class="quote">Check out my socials</p>
+                <div class="socials" id="socials">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/Olivialew" target="_blank" rel="noopener noreferrer">
+                                <img src="images/githubLogoBlack.png" alt="GitHub Logo" width="60vw" height="60vh">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/jia-wei-lew-b8b440230/" target="_blank" rel="noopener noreferrer">
+                                <img src="images/linkedIn.png" alt="LinkedIn Logo" width="60vw" height="60vh">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:olivialew88@gmail.com"><img src="images/gmailLogo.png" alt="Gmail Logo" width="60vw" height="60vh"></a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/60183510128" target="_blank" rel="noopener noreferrer">
+                                <img src="images/whatsappLogo.png" alt="WhatsApp Logo" width="60vw" height="60vh">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-container">
+                <div class="column">
+                    <h3>Contact Me</h3>
+                    <div class="socials" id="socials">                
+                        <ul>
+                            <li>
+                                <a href="https://github.com/Olivialew" target="_blank">
+                                    <img src="images/githubLogoWhite.png" alt="GitHub Logo" width="30vw" height="30vh">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/jia-wei-lew-b8b440230/" target="_blank">
+                                    <img src="images/linkedInLogoWhite.png" alt="LinkedIn Logo" width="30vw" height="30vh">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:olivialew88@gmail.com"><img src="images/mailLogoWhite.png" alt="Gmail Logo" width="30vw" height="30vh"></a>
+                            </li>
+                            <li>
+                                <a href="https://wa.me/60183510128" target="_blank" rel="noopener noreferrer">
+                                    <img src="images/whatsappLogoWhite.png" alt="WhatsApp Logo" width="30vw" height="30vh">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <button onclick="window.location.href='#home';"><img src="images/banner.png" width="25vw" height="25vh"> &nbsp; Back to top</button>
+                </div>
+                <div class="column" id="footer-sitemap">
+                    <h3>Site Map</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#introduction">Introduction</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
